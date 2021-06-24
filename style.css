@@ -1,3 +1,10 @@
+html, body {
+	font-family: 'Lato', 'Helvetica', 'Arial', sans-serif;
+	text-align: justify;
+	margin: 5px;
+	background-color: #f3f3f3;
+}
+
 .clear {
 	clear: both;
 }
@@ -10,18 +17,78 @@
 
 #name {
 	float: left;
+	font-family: 'Rokkitt';
+	padding: 1px;
 }
 
 #contactDetails {
 	float: right;
+	color: #181818;
 }
 
 .sectionTitle {
 	float: left;
 	width: 25%;
+	font-family: 'Rokkitt';
+	font-size: 13px;
+	font-style: italic;
+	font-weight: 200;
+	color: #cf8a05;
+	margin-left: 8px;
 }
 
 .sectionContent {
 	float: right;
 	width: 72.5%;
+	color: #181818;
+}
+
+h2.title {
+	font-family: 'Rokkitt', 'Helvetica', 'Arial', 'sans-serif';
+	font-weight: 350;
+	margin-bottom: 2px;
+	font-size: 25px;
+	color: #444444;
+} 
+
+h2 {
+	color: #444444;
+	font-weight: 400;
+	font-family: 'Rokkitt', 'Helvetica', 'Arial', 'sans-serif';
+	font-weight: 320;
+	margin-bottom: 2px;
+	font-size: 19px;
+}
+
+section {
+	border-bottom: 1px solid #dedede;
+}
+
+.mainDetails {
+	padding: 25px 35px;
+	border-bottom: 2px solid #cf8a05;
+	margin: 3px;
+}
+
+#cv {
+	width: 50%;
+	max-width: 800px;
+	margin: 30px auto;
+}
+
+#headshot {
+	width: 15%;
+	margin-right: 30px;
+}
+
+#headshot img {
+	border-radius: 50px;
+	width: 100%;
+	height: auto;
+}
+
+.subDetails {
+	font-size: 12px;
+	margin-top: 0;
+	font-style: italic;
 }
