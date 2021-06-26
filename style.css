@@ -19,22 +19,12 @@ html, body {
 	float: left;
 	font-family: 'Rokkitt';
 	padding: 1px;
+	margin-bottom: 0;
 }
 
 #contactDetails {
 	float: right;
 	color: #181818;
-}
-
-.sectionTitle {
-	float: left;
-	width: 25%;
-	font-family: 'Rokkitt';
-	font-size: 13px;
-	font-style: italic;
-	font-weight: 200;
-	color: #cf8a05;
-	margin-left: 8px;
 }
 
 .sectionContent {
@@ -43,12 +33,13 @@ html, body {
 	color: #181818;
 }
 
-h2.title {
+.title {
 	font-family: 'Rokkitt', 'Helvetica', 'Arial', 'sans-serif';
 	font-weight: 350;
 	margin-bottom: 2px;
 	font-size: 25px;
 	color: #444444;
+	margin-top: 0;
 } 
 
 h2 {
@@ -68,6 +59,7 @@ section {
 	padding: 25px 35px;
 	border-bottom: 2px solid #cf8a05;
 	margin: 3px;
+	width: 95%;
 }
 
 #cv {
@@ -96,4 +88,24 @@ section {
 a {
 	text-decoration: none;
 	color: inherit;
+}
+
+.keySkills {
+	column-count: 3;
+	list-style: none;
+}
+
+.nome {
+	margin-bottom: 0;
+}
+
+.sectionTitle {
+	float: left;
+	width: 25%;
+	font-family: 'Rokkitt';
+	font-size: 13px;
+	font-style: italic;
+	font-weight: 200;
+	color: #cf8a05;
+	margin-left: 8px;
 }
