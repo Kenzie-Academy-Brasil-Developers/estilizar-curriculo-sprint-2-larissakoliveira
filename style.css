@@ -99,11 +99,11 @@ a {
 	margin-bottom: 0;
 }
 
-.sectionTitle {
+.sectionTitle h1 {
 	float: left;
 	width: 25%;
 	font-family: 'Rokkitt';
-	font-size: 13px;
+	font-size: 20px;
 	font-style: italic;
 	font-weight: 200;
 	color: #cf8a05;
