@@ -109,3 +109,7 @@ a {
 	color: #cf8a05;
 	margin-left: 8px;
 }
+
+.contactList {
+	list-style-type: none;
+}
